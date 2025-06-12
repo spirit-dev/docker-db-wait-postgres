@@ -5,7 +5,7 @@
 <!-- More info: https://badgesgenerator.com/ -->
 
 [![GitLab Sync](https://img.shields.io/badge/gitlab_sync-docker_db_wait_postgres-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-db-wait-postgres) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-docker_db_wait_postgres-blue?style=for-the-badge&logo=github)](https://github.com/orgs/spirit-dev/docker-db-wait-postgres)
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-docker_db_wait_postgres-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-db-wait-postgres)
 
 > This image is based on the work done by true chart.
 > The main issue is that those guys are only build an amd64 image ! shame !
