@@ -9,6 +9,7 @@ ARG alpine_version \
 
 ENV UMASK=0002
 
+# hadolint ignore=DL3048
 LABEL alpine_version="${alpine_version}" \
     node_version="${node_version}" \
     spiritdev_official="yes" \
@@ -22,7 +23,7 @@ SHELL ["/bin/sh", "-o", "pipefail", "-c"]
 
 WORKDIR /app
 
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155
+# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL3018
 RUN \
 apk update && \
   apk --no-cache update && \

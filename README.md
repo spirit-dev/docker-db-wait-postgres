@@ -1,5 +1,12 @@
 # db-wait-postgres
 
+<!-- More info: https://github.com/Ileriayo/markdown-badges -->
+<!-- More info: https://shields.io/badges -->
+<!-- More info: https://badgesgenerator.com/ -->
+
+[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-docker_db_wait_postgres-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-db-wait-postgres) <!-- markdownlint-disable MD041 -->
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-docker_db_wait_postgres-blue?style=for-the-badge&logo=github)](https://github.com/orgs/spirit-dev/docker-db-wait-postgres)
+
 > This image is based on the work done by true chart.
 > The main issue is that those guys are only build an amd64 image ! shame !
 >
@@ -9,11 +16,23 @@
 > - [DB Wait Postgres image](https://github.com/truecharts/public/blob/master/containers/apps/db-wait-postgres/Dockerfile)
 > - [Docker image on Quay.io](https://quay.io/repository/truecharts/db-wait-postgres)
 
-[[_TOC_]]
+<!--TOC-->
+
+- [Documentation](#documentation)
+  - [Os](#os)
+- [Test](#test)
+  - [Prerequisite](#prerequisite)
+  - [Linux](#linux)
+  - [MacOS](#macos)
+  - [Others](#others)
+  - [Usage](#usage)
+- [Resource](#resource)
+
+<!--TOC-->
 
 This repository is dedicated to oficial images used in our differents projects / microservices
 
-**Technically speaking**
+**Technically speaking**  <!-- markdownlint-disable MD036 -->
 
 - CICD in place to ease build and push of images
 - Testing solution for images
