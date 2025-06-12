@@ -1,11 +1,6 @@
 # db-wait-postgres
 
-<!-- More info: https://github.com/Ileriayo/markdown-badges -->
-<!-- More info: https://shields.io/badges -->
-<!-- More info: https://badgesgenerator.com/ -->
 
-[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-docker_db_wait_postgres-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-db-wait-postgres) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-docker_db_wait_postgres-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-db-wait-postgres)
 
 > This image is based on the work done by true chart.
 > The main issue is that those guys are only build an amd64 image ! shame !
@@ -54,7 +49,7 @@ This repository is dedicated to oficial images used in our differents projects /
 
 ### Os
 
-- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/db-wait-redis)
+- [**Alpine**](https://github.com/spirit-dev/docker-db-wait-redis)
 
 ## Test
 
@@ -120,4 +115,4 @@ container-structure-test test --image tbd/{IMAGES}:{TAG} --config {TEST_FILE}.ya
 
 - <https://linux.die.net/man/1/make>
 - <https://github.com/GoogleContainerTools/container-structure-test>
-- <https://docs.docker.com/engine/reference/builder/>
+- <https://docs.docker.com/engine/reference/builder/
